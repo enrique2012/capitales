@@ -1,0 +1,117 @@
+body{
+	background-color: #0710ce;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1em;
+	
+}
+
+
+button{
+	display: block;
+	background-color: #f6da06;
+	color: #000;
+	border: 2px solid #000;
+    border-radius: 10px;
+	padding: 2px;
+	width: 100%;
+	font-size: 1.5em;
+	margin: 10px auto;	
+}
+
+.botonMini{
+	display: inline;
+	width: auto;
+	font-size: .7em;
+	padding: 5px;
+	margin-right: 2px;
+	
+}
+
+
+.centraTexto{
+	text-align: center;
+}
+
+.comenzar{
+	background-color: #fff;
+	color: #0710ce;
+	font-size: 1.2
+		em;
+	width: auto;
+	margin: 0 auto;
+	margin-top: 25px;
+	text-align: center;
+}
+
+
+.seleccionado{
+	background-color: #000;
+	color: #f6da06;
+	
+	
+}
+
+
+#puntuacion{
+	width: auto;
+	float: left;
+	margin-left: 20px;
+}
+
+#vida{
+	width: auto;
+	float: right;
+	margin-right: 20px;
+}
+
+
+#p,#v,td{
+	background-color: #000;
+	color: #f6da06;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+#preguntas{
+	clear: both;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.pregunta{
+	color: #f6da06;
+}
+
+
+.acierto{
+	background-color: green;
+	color: #f6da06;
+
+}
+
+.fallo{
+	background-color: red;
+	color: #f6da06;
+}
+
+table{
+	width: 100%;
+	margin: auto;
+	font-size: 1em;
+	
+}
+
+th{
+	text-align: left;
+	padding: 10px;
+}
+
+td{
+	text-align: right;
+	padding: 10px;
+}
+
+.mayusculas{
+	text-transform: uppercase;
+}
