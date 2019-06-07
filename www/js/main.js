@@ -17,7 +17,7 @@ var app = {
 	inicio: function(){
 		
 		app.iniciaFastClick();
-		//app.iniciaFirebase();
+		app.iniciaFirebase();
 		//app.obtenerHiScore();
 		app.iniciaJuego();
 		//app.iniciaBotones();
